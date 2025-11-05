@@ -1,0 +1,62 @@
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #faf8f5;
+      color: #222;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #E6E6FA 0%, #D8BFD8	100%);
+      color: white;
+      font-family: 'Playfair Display', serif;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+    }
+    section {
+      margin-bottom: 80px;
+    }
+    .poema {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      white-space: pre-line;
+      text-align: center;
+      animation: fadein 2s ease;
+    }
+        .poema2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      white-space: pre-line;
+      text-align: center;
+      animation: fadein 2s ease;
+    }
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    video {
+      width: 30%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    img {
+      width: 80%;
+      border-radius: 10px;
+      margin-top: 20px
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #666;
+    }
